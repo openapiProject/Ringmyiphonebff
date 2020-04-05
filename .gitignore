@@ -1,0 +1,37 @@
+#Generated files/folders that are not part of the code base.
+*.ami
+*.iml
+*.ipr
+*.iws
+*.stackdump
+.classpath
+.DS_Store
+.externalNativeBuild
+.gradle
+.gradletasknamecache
+.idea/
+.mymetadata
+.project
+.settings/
+.springBeans
+app/temp_archive
+bin/
+build
+captures
+local.properties
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+release.properties
+src/test/curl/.Curl_tmp
+src/test/curl/.orchCurl_*
+target/
+Thumbs.db
+
+#Do not check these in because they contain sensitive data.
+*.jks
+*.key
+desktopKey.*
+nonProd_*
+nonprod_*
+prod_*
